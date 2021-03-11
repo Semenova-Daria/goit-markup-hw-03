@@ -229,7 +229,7 @@ button {
 /*========== HERO =========*/
 .hero {
   background-color: #2f303a;
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -364,11 +364,7 @@ button {
 
 .team {
   background: #f5f4fa;
-}
-
-.team .container {
-  padding-top: var(--section-p);
-  padding-bottom: var(--section-p);
+  padding: 94px 0;
 }
 
 .team-title {
@@ -435,6 +431,10 @@ button {
   border: 1px solid #ececec;
 }
 
+.projects {
+  padding: 94px 0;
+}
+
 .filters .container {
   display: flex;
   align-items: center;
@@ -443,8 +443,7 @@ button {
 .filters-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
-  padding-top: var(--section-p);
+  padding-bottom: 50px;
 }
 
 .filters-list-item {
@@ -516,9 +515,9 @@ button {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -24px;
-  margin-top: -20px;
-  padding-bottom: var(--section-p);
+  margin-left: -30px;
+  margin-top: -30px;
+  /* padding-bottom: var(--section-p); */
 }
 
 .projects-link {
@@ -529,8 +528,9 @@ button {
 
 .projects-list-item:not(last-child) {
   flex-basis: calc(100% / 3 -20px);
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 370px;
 }
 
 .projects-name {
